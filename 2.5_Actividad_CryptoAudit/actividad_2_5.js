@@ -9,8 +9,7 @@ let saldoTotal = 0;
  
 console.log("Iniciando auditoría de transacciones...");
  
-// Quito el <= porque si no el bucle da una  vuelta de más al array.
-// Y los array empiezan desde 0.
+// Quito el <= porque si no el bucle da una  vuelta de más al array y los array empiezan desde 0.
 for (let i = 0; i < transacciones.length; i++) {
     let transaccion = transacciones[i];
  
