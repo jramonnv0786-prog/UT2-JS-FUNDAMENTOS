@@ -1,16 +1,21 @@
 {
-    // Use IntelliSense para saber los atributos posibles.
-    // Mantenga el puntero para ver las descripciones de los existentes atributos.
-    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
         {
-            "type": "chrome",
+            // Depura con Node.js el archivo .js que tengas abierto en el editor.
+            "type": "node",
             "request": "launch",
-            "name": "Iniciar Chrome para localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+            "name": "Depurar archivo actual (Node)",
+            // ${file} = ruta del archivo abierto en la pestaña activa.
+            "program": "${file}",
+            // Ejecuta el programa desde la carpeta del propio archivo.
+            "cwd": "${fileDirname}",
+            // Se detiene en la primera línea para inspeccionar las variables desde el inicio.
+            "stopOnEntry": true,
+            // Muestra los console.log en el terminal integrado de VS Code.
+            "console": "integratedTerminal",
+            // No entra en el código interno de Node al avanzar paso a paso.
+            "skipFiles": ["<node_internals>/**"]
         }
     ]
 }
