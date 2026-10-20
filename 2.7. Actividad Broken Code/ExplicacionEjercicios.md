@@ -6,7 +6,7 @@ fue declarada como result y para mostrarla fue llamada "+ reslt".
 ----------------------------------------------------------------------------------
 # 2: Comparaciones sospechosas.
 
-El error de este ejercicio era un error sintáctico en el if siendo la corrección: >= (mayor o igual).
+El error de este ejercicio era sintáctico en la condición if, siendo la corrección: >= (mayor o igual).
 => Es una función flecha (que es una forma corta de escribir una función).
 
 -----------------------------------------------------------------------------------
