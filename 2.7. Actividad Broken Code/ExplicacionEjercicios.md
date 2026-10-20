@@ -50,7 +50,7 @@ Pero el error no estaba en el código... si no en la extensión del archivo, era
 
 
 
-![alt text](Capturas/HTML_Traicionero.png)
+![alt text](Captura/HTML_Traicionero.png)
 
 
 
