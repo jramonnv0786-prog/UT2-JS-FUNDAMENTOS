@@ -46,6 +46,18 @@ Este es el ejercicio que más guerra me ha dado.
 Conseguí solucionar el JS, no obstante, había un error en HTML, que lo intuí a nivel de código.
 Pero el error no estaba en el código... si no en la extensión del archivo, era un .JS, por eso no me arrancaba el HTML.
 
+
+
+
+![alt text](Capturas/HTML_Traicionero.png)
+
+
+
+
+
+
+
+
 ---------------------------------------------------------------------------------------
 # 9: Cálculo misterioso.
 El fallo se encontraba en la segunda llamada, que pasaba 60 en vez de 0.6
