@@ -11,8 +11,8 @@ function esPar(num) {
 console.log(esPar(3));
 console.log(esPar(4));
 
-// Es comparación estricta y  faltaban los "==" en el código
-// Por tanto, si el resto de 2 es 0 es TRUE si no es FALSO
+// Es igualdad estricta (booleano) y  faltaban los "==" en el código.
+// Por tanto, si el resto de la división entre 2 = 0: TRUE si no es FALSO.
 
 /* function esPar(num) {
     if (num % 2 = 0) {
