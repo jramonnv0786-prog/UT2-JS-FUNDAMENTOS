@@ -17,13 +17,13 @@ Para que una función muestre el resultado debe devolverlo, y el return estaba c
 -----------------------------------------------------------------------------------
 # 4: Names...Names.
 
-En la función saludar(nombre), la variable está definida como "name" , no como nombre.
+En la función saludar(nombre), la variable está definida como "name" , no como "nombre".
 Por tanto, no devolverá el saludo.
 
 ------------------------------------------------------------------------------------
 # 5: Out of control
 
-El bucle estaba recorriendo 5 veces por el array: "<=". Una vez quitado el "=" ya funciona correctamente y hace la suma sin errores.
+El bucle estaba recorriendo 5 (porque empiezan desde 0) veces por el array: "<=". Una vez quitado el "=" ya funciona correctamente y hace la suma sin errores.
 
 -------------------------------------------------------------------------------------
 # 6: Usando expresiones.
@@ -34,17 +34,17 @@ Por tanto, si el resto de la división entre 2 === 0: TRUE. Si no es FALSO.
 -------------------------------------------------------------------------------------
 # 7: Callback defectuoso.
 
- En este programa las variables de "datos" no estaban correctamente escritas, dando error en el código
+ En este programa, la variable definida como "datos" no estaba correctamente escrita, dando error en el código.
 
  -------------------------------------------------------------------------------------
  # 8: Evento click sospechoso.
 
- Error JS: variable "msj" mal escrita. 
-Error HTML: Faltaba  `<title>Botón click</title>`que es necesario para que le navegador lo interprete.
+Error en JS: variable "msj" mal escrita, definida como "msg". 
+Error en HTML: Faltaba  `<title>Botón click</title>`que es necesario para que le navegador lo interprete.
 
 Este es el ejercicio que más guerra me ha dado.
-Conseguí solucionar el JS, no obstante, había un error en HTML que lo intuí a nivel de código.
-Pero el error no estaba en el código... si no en la extensión del archivo, era un .JS, por eso no me arrancaba el HTML.
+Conseguí solucionar el JS. No obstante, había un error en HTML que lo intuí a nivel de código.
+Pero el error no estaba en el código... si no en la extensión del archivo, era un .JS, por eso no me interpretaba el HTML.
 
 
 
@@ -60,7 +60,8 @@ Pero el error no estaba en el código... si no en la extensión del archivo, era
 
 ---------------------------------------------------------------------------------------
 # 9: Cálculo misterioso.
-El fallo se encontraba en la segunda llamada, que pasaba 60 en vez de 0.6
+El fallo se encontraba en la segunda llamada, que pasaba 60 en vez de 0.6.
+
 100 - 100 * 60. Al ir antes la multiplicación sale el resultado en negativo -5900.
 
 
