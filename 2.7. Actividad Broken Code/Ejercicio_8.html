@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">                                                  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Prueba de evento click</title>                                   
+</head>
+<body>
+  <button id="miBoton">Click me</button>
+
+  <script>
+    const btn = document.getElementById("miBoton");
+    btn.addEventListener("click", function() {
+      let msg = "Hola mundo";
+      console.log(msg);
+    });
+  </script>
+</body>
+</html>
+
+// Error JS: variable "msg" mal escrita. 
+// Y en HTML: Faltaba el "Head" y con el meta charset y el tittle, que son necesarios en su compilación.
+
+// Este es uno de los ejercicios que más guerra me ha dado.
+// Conseguí solucionar el JS, no obstante, había un error en HTML, que lo intuí a nivel de código.
+// Pero el error no estaba en el código... si no en la extensión del archivo, era un .JS, por eso no me arrancaba el HTML.
