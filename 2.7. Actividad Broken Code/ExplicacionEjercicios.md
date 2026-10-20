@@ -12,7 +12,7 @@ El error de este ejercicio era sintáctico en la condición if, siendo la correc
 -----------------------------------------------------------------------------------
 # 3: Return of the Jedi.
 
-Para que una función muestre el resultado debe devolverlo, y el return estaba comentado. Por tanto, no devuelve nada.
+Para que una función muestre el resultado debe devolverlo, y el "return" estaba comentado. Por tanto, no devuelve nada.
 
 -----------------------------------------------------------------------------------
 # 4: Names...Names.
