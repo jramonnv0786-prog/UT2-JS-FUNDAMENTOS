@@ -43,7 +43,7 @@ Por tanto, si el resto de la división entre 2 === 0: TRUE. Si no es FALSO.
 Error HTML: Faltaba  `<title>Botón click</title>`que es necesario para que le navegador lo interprete.
 
 Este es el ejercicio que más guerra me ha dado.
-Conseguí solucionar el JS, no obstante, había un error en HTML, que lo intuí a nivel de código.
+Conseguí solucionar el JS, no obstante, había un error en HTML que lo intuí a nivel de código.
 Pero el error no estaba en el código... si no en la extensión del archivo, era un .JS, por eso no me arrancaba el HTML.
 
 
