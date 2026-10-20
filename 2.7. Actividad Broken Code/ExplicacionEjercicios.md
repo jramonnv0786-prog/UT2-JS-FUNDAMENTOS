@@ -17,12 +17,12 @@ El error de este ejercicio era un error sintáctico en el if siendo la correcci�
 -----------------------------------------------------------------------------------
 # 3: Return of the Jedi.
 
-Para que una función muestre el resultado debe de devolverlo, y el return estaba comentado. Por tanto, no devuelve nada.
+Para que una función muestre el resultado debe devolverlo, y el return estaba comentado. Por tanto, no devuelve nada.
 
 /* function multiplicar(a, b) {
     let ofthejedi= a * b;
     
-    // return ofthejedi;
+    return ofthejedi;
 }
 let total = multiplicar(3, 4);
 console.log("Total: " + total);
