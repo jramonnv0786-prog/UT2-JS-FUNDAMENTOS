@@ -40,10 +40,10 @@ Por tanto, si el resto de la división entre 2 === 0: TRUE. Si no es FALSO.
  # 8: Evento click sospechoso.
 
 Error en JS: variable "msj" mal escrita, definida como "msg". 
-Error en HTML: Faltaba  `<title>Botón click</title>`que es necesario para que le navegador lo interprete.
+Error en HTML: Error en la extensión del archivo
 
 Este es el ejercicio que más guerra me ha dado.
-Conseguí solucionar el JS. No obstante, había un error en HTML que lo intuí a nivel de código.
+Conseguí solucionar el JS.
 Pero el error no estaba en el código... si no en la extensión del archivo, era un .JS, por eso no me interpretaba el HTML.
 
 
